@@ -1,11 +1,10 @@
 {
   "name": "@starsoul/util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/starsoul666/dz-util.git"
   },
-  "license": "MIT",
-  "private": false
+  "license": "MIT"
 }

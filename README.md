@@ -51,6 +51,29 @@ const fileUrl = await uploadFileToOSS('获取签名地址',{
 })
 ```
 
+### listToMap
+
+```javascript
+/**
+ * list to map
+ * @param {Array} list
+ * @param {string} key default 'code'
+ * @param {string} value default 'val'
+ */
+listToMap (list = [], key = 'code', value = 'val'): object
+```
+
+### dictToMap - 把后台字典转成 Enum
+
+```javascript
+/**
+ * dict to map
+ * @param {Array} list
+ * @param {'string' | 'number'} type key的类型 default 'string'
+ */
+dictToMap (list = [], type): object
+```
+
 ## storage
 
 ```javascript
@@ -62,3 +85,12 @@ import {storage} from '@starsoul/util'
 - setItem(key:string, value:any)
 - clearItem(key:string)
 - clearAll()
+
+## 常量
+
+```javascript
+const BoolEnum = {
+  1: '是',
+  0: '否'
+}
+```

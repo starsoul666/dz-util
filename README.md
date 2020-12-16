@@ -74,6 +74,12 @@ listToMap (list = [], key = 'code', value = 'val'): object
 dictToMap (list = [], type): object
 ```
 
+### mapToOptions - 把 map 转成 select 组件的 options
+
+```javascript
+mapToOptions(map):list<{key:string, value:string}>
+```
+
 ## storage
 
 ```javascript

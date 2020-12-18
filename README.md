@@ -80,6 +80,8 @@ dictToMap (list = [], type): object
 mapToOptions(map):list<{key:string, value:string}>
 ```
 
+### formatNumber 1234 -> 1,234
+
 ## storage
 
 ```javascript
